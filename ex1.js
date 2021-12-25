@@ -10,5 +10,8 @@ const networkClass = new Lesson("network" , 3 , 30)
 softEngineeringClass.project = true
 networkClass.book = true
 
-console.log(JSON.stringify(softEngineeringClass))
-console.log(JSON.stringify(networkClass))
+let softEngineeringJson = JSON.stringify(softEngineeringClass)
+let networkJson = JSON.stringify(networkClass)
+
+console.log(JSON.parse(softEngineeringJson))
+console.log(JSON.parse(networkJson))
