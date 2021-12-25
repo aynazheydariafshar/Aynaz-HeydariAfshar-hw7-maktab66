@@ -2,5 +2,20 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
 
+@font-face {
+    font-family: RalewayBold;
+    src: url(./fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(./fonts/Raleway-Medium.ttf);
+}
+
+*{
+    font-family: Raleway;
+    color: white;
+}
