@@ -19,3 +19,39 @@ body{
     font-family: Raleway;
     color: white;
 }
+
+.sectionmain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 150px 200px 150px;
+}
+
+#profile{
+    width: 150px;
+    height: 150px;
+}
+
+.heeder{
+    display: flex;
+    margin-left: 30px;
+}
+
+.heeder img{
+    width: 50px;
+    height: 50px;
+    margin-top: 16px;
+    margin-left: 30px;
+}
+
+.content{
+    margin-left: 30px;
+}
+
+.line{
+    background: #D38312;
+    background: linear-gradient(to right,#D38312 , #A83279); 
+    width: 80%;
+    height: 3px;
+    margin-left: 150px;
+}
