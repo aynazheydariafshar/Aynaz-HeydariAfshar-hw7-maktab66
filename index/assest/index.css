@@ -66,7 +66,21 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
+
 .item{
     width: 30%;
     margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.item h3{
+    background: -webkit-linear-gradient(45deg,#D38312 10%,#A83279 25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
 }
