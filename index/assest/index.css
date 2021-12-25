@@ -49,9 +49,24 @@ body{
 }
 
 .line{
-    background: #D38312;
     background: linear-gradient(to right,#D38312 , #A83279); 
     width: 80%;
     height: 3px;
     margin-left: 150px;
+}
+
+.headertwo{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.continer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    width: 30%;
+    margin-bottom: 30px;
 }
